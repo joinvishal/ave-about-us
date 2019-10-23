@@ -6,6 +6,12 @@
     
     body {
         font-family: "Roboto", sans-serif;
+        margin-bottom: 338px;
+    }
+    
+    html,
+    body {
+        background-color: #fff;
     }
     
     .wrapper {
@@ -454,7 +460,6 @@
     }
     
     .w-btn1 {
-        border-width: 1px;
         color: rgb(211, 169, 133);
         font-size: 13px;
         padding: 1.15em 2.1em;
@@ -462,6 +467,7 @@
         font-size: 13px;
         letter-spacing: 0.1em;
         border-radius: 50em;
+        border-width: 1px;
         border-color: rgb(211, 169, 133);
     }
     
@@ -495,6 +501,9 @@
     .footer-container {
         width: 100%;
         background: linear-gradient(270deg, #fc8484 0%, #ac1de1 100%);
+        position: fixed;
+        bottom: 0;
+        z-index: -1;
     }
     
     h4 {
