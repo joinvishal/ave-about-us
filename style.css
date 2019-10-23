@@ -838,4 +838,10 @@ h5 {
     .w-p {
         font-size: 14px;
     }
+    .copy-content {
+        flex-direction: column;
+    }
+    .icon {
+        padding-top: 20px;
+    }
 }
