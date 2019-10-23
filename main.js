@@ -6,3 +6,8 @@ $(document).ready(function() {
         return false;
     });
 });
+
+AOS.init({
+    duration: 2000,
+    once: true,
+});
