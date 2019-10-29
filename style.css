@@ -302,6 +302,19 @@
         width: 555px;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
+    /* .t-box1:before {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        bottom: 0;
+        left: 20%;
+        transform: translatey(18px) rotate(45deg);
+        border-bottom: 2px solid #fff;
+        border-right: 2px solid #fff;
+        background: black;
+    }
+     */
     
     .t-p1 {
         font-size: 20px;
